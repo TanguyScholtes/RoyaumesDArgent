@@ -1,0 +1,30 @@
+.tab-menu__link{
+    color: $darksilver;
+    text-decoration: none;
+    border: 2px solid $silver;
+    background-color: $pureWhite;
+    
+    transition: color 200ms ease-out;
+    transition: border 200ms ease-out;
+    transition: background-color 200ms ease-out;
+    transition: text-shadow 300ms ease-out;
+}
+
+.tab-menu__link:hover{
+    color: $white;
+    border: 2px solid $darksilver;
+    background-color: $silver;
+    text-shadow: 1px 1px 0 $lightShadowBlack;
+        
+    transition: color 200ms ease-out;
+    transition: border 200ms ease-out;
+    transition: background-color 200ms ease-out;
+    transition: text-shadow 300ms ease-out;
+}
+
+.tab--active{
+    color: $white;
+    border: 2px solid $darksilver;
+    background-color: $silver;
+    text-shadow: 1px 1px 0 $lightShadowBlack;
+}

@@ -1,0 +1,112 @@
+//character sheet header
+
+.character-sheet__header{
+    margin: 2em 0;
+}
+
+.character-sheet__owner, .character-sheet__last-update{
+    margin: 0.5em 0;
+}
+
+
+//character image
+
+.character-sheet__image-section__wrapper{
+    width: 20%;
+    display: inline-block;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.character-sheet__image{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+//main
+
+.character-sheet__tab__subcontent{
+    margin-bottom: 2em;
+}
+
+
+//text
+
+.character-sheet__background__text{
+    margin: 0.1em 0;
+}
+
+
+//lists
+
+.character-sheet__informations__list{
+    padding-left: 0;
+}
+
+
+//tab content
+
+.character-sheet__tab__content{
+    width: 78%;
+    float: right;
+}
+
+
+//tables
+
+.character-sheet__table{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.caracs-table-preview{
+    .character-sheet__table__head, .character-sheet__table__cell, .character-sheet__table__head--side{
+        width: 7em;
+    }
+}
+
+.ressources-table{
+    .character-sheet__table__head, .character-sheet__table__cell, .character-sheet__table__head--side{
+        width: 6em;
+    }
+}
+
+.character-sheet__list{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.caracs-table{
+    width: 100%;
+    .character-sheet__table__head, .character-sheet__table__cell, .character-sheet__table__head--side{
+        width: 5em;
+    }
+}
+
+.character-sheet__table__skill__effect{
+    margin: 0.5em;
+}
+
+.chinese-portrait-table, .information-table, .equip-table{
+    margin: 0 auto 2em auto;
+}
+
+.chinese-portrait-table, .information-table{
+    width: 90%;
+}
+
+.equip-table{
+    width: 60%;
+    
+    .character-sheet__table__cell, .character-sheet__table__head--side{
+        width: 25%;
+    }
+}
+
+.chinese-portrait-table{
+    .character-sheet__table__cell{
+        padding: 0.2em 0.5em;
+    }
+}
+

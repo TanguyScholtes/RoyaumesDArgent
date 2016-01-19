@@ -1,0 +1,21 @@
+/*--------- TOOLS : Fonts ---------*/
+
+/* ------------ Fonts Importation ----------- */
+@font-face{
+    font-family: "Saber";
+    src: url('../fonts/Saber-Regular.ttf') format("truetype");
+}
+
+
+/* ------------ Fonts Usage ------------ */
+body{
+    font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+}
+
+.title{
+    font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+}
+
+.site__title, .page__title{
+    font-family: "Saber",Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+}

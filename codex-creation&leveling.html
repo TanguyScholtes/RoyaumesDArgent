@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="fr-be" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="fr-be" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="fr-be" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="fr-be" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+        <title>Création et Progression - Codex - Les Royaumes d'Argent</title>
+        <meta name="description" content="Jeu de rôle sur table dans un univers médiéval fantastique créé par Vincent Dorian.">
+        <meta name="Author" content="Tanguy SCHOLTES"/>
+        
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- Add your site or application content here -->
+        
+        <!-- Header menu -->
+        <div class="wrapper header__wrapper">
+            <header class="header">
+                <p class="title site__header">
+                    <a class="site__header__link" href="index.html">
+                        <!-- <img class="site__logo" src="img/*.jpg" title="Logo Royaumes d'Argent" alt="Logo Royaumes d'Argent"> -->
+                        <span class="site__title">Les Royaumes d'Argent</span>
+                    </a>
+                </p>
+                <nav class="top__menu menu">
+                    <h2 class="title hidden">Navigation principale</h2>
+                    <ul class="top__menu__list">
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="index.html" >Accueil</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="codex.html" >Codex</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="character-sheets__list.html" >Fiches</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="board.html" >Plateau de jeu</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="my-account.html" >Mon compte</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="#" >Déconnexion</a></li>         
+                    </ul><!-- top__menu__list -->
+                </nav><!-- .menu .top__menu -->
+            </header><!-- .header -->
+        </div><!-- .wrapper .header__wrapper -->        
+        
+        <div class="wrapper main__wrapper">            
+            <!-- if parallax -->
+            <div class="illu illu-common" data-parallax="scroll" data-image-src="img/illu-warrior-1366x200.jpg">
+                <p class="title page__title illu__text">Codex : Création et Progression</p>
+            </div>
+            
+            <!-- Codex content -->
+        <!--
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="universe.html" >Univers</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="races.html" >Races</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="skills.html" >Compétences</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="fight.html" >Combat</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="magic.html" >Magie</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="leveling.html" >Création et Progression</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="shop.html" >Boutique</a></li>
+        -->
+            
+            <main class="main main__content">
+                <nav class="tab-menu">
+                    <h2 class="title hidden">Navigation dans le Codex</h2>
+                    <ul class="tab-menu__list codex__menu">
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex.html">Univers</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-races.html">Races</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-skills.html">Compétences</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-fight.html">Combat</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-magic.html">Magie</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link tab--active" href="codex-creation&leveling.html">Création et Progression</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-shop.html">Boutique</a></li>
+                    </ul>
+                </nav>
+                <h1 class="title content__title">Création et Progression</h1>
+                
+                <nav class="race__contents">
+                    <h2 class="contents__title">Sommaire</h2>
+                    <ul class="race__contents__list">
+                        <li class="race__contents__list-item">
+                            <a class="race__contents__link" href="#create">Créer son personnage</a>
+                            <ul>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#create-caracs">Répartir ses caractéristiques</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#create-race">Choisir sa race</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#create-skills">Attribuer ses compétences</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#create-gold&items">Déterminer l’or de départ et acheter de l’équipement</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#create-details">Les détails</a></li>
+                            </ul>
+                        </li>
+                        <li class="race__contents__list-item">
+                            <a class="race__contents__link" href="#level-up">Monter de niveau</a>
+                            <ul>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#level-caracs">Augmentation de caractéristiques</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#level-soulbind">Liens d’âme</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#level-skills">Améliorer ses compétences</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <div class="anchor" id="create"></div>                
+                <section class="races-intro codex__text__wrapper wrapper">
+                    <h2 class="codex__title">Créer son personnage</h2>
+                    <p class="skill__paragraph skill__text">Insérer ici texte d'introduction.</p>
+                    
+                    <div class="anchor" id="create-caracs"></div>
+                    <section class="races-humans codex__text__wrapper wrapper">
+                        <h3 class="codex__title">Répartir ses caractéristiques</h3>
+                        <p class="skill__paragraph skill__text">Les 6 caractéristiques de base définissent les attributs principaux d’un personnage. Vous pouvez  attribuer  les  caractéristiques  d’un  personnage  de  plusieurs  manières,  en  accord avec le Maître du jeu.</p>
+                        <ul>
+                            <li>
+                                <h4 class="codex__title">Répartition simple</h4>
+                                <p class="skill__paragraph skill__text">Assignez les valeurs de votre choix de cette liste à chacune des caractéristiques de base: 14, 12, 12, 10, 10, 8. Vous  ne  pouvez  attribuer  chaque  valeur  qu’une  fois  et  vous  devez  attribuer  toutes  les valeurs.</p>
+                            </li>
+                            <li>
+                                <h4 class="codex__title">Répartition touche-à-tout</h4>
+                                <p class="skill__paragraph skill__text">Assignez 12 à toutes les valeurs des caractéristiques de base.</p>
+                            </li>
+                            <li>
+                                <h4 class="codex__title">Répartition au hasard</h4>
+                                <p class="skill__paragraph skill__text">Jetez 4d6 par caractéristique et assignez lui le résultat.</p>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <div class="anchor" id="create-race"></div>
+                    <section class="races-humans codex__text__wrapper wrapper">
+                        <h3 class="codex__title">Choisir sa race</h3>
+                        <p class="skill__paragraph skill__text">Choisissez  une  race,  assignez  ses  modificateurs  raciaux  de  caractéristiques  au personnage, et notez toutes ses particularités raciales.</p>
+                    </section>
+                    
+                    <div class="anchor" id="create-skills"></div>
+                    <section class="races-humans codex__text__wrapper wrapper">
+                        <h3 class="codex__title">Attribuer ses compétences</h3>
+                        <p class="skill__paragraph skill__text">Les  compétences  représentent  majoritairement  les  ensembles  de  techniques  acquises par l'entraînement et l’expérience. Les personnages ne sont pas égaux concernant l’étude des  compétences,  et  ont  des  affinités  avec  définit  comme  compétences  majeures  et mineures.</p>
+                        <p class="skill__paragraph skill__text">Vous  pouvez  attribuer  les  compétences  majeurs  et  mineurs  de  plusieurs  manières,  en accord avec le Maître du jeu.</p>
+                        <ul>
+                            <li>
+                                <h4 class="codex__title">Attribution touche-à-tout</h4>
+                                <p class="skill__paragraph skill__text">Assignez une unique compétence majeure au personnage. Il gagne deux points de compétence supplémentaire par niveau.</p>
+                            </li>
+                            <li>
+                                <h4 class="codex__title">Attribution libre</h4>
+                                <p class="skill__paragraph skill__text">Assignez 4 compétences majeures et 4 compétences mineures au personnage.</p>
+                            </li>
+                            <li>
+                                <h4 class="codex__title">Attribution fixe</h4>
+                                <p class="skill__paragraph skill__text">Assignez 3 compétences majeures au personnage. Le personnage ne gagne pas de point de compétence par niveau (Excepté par un bonus, comme la particularité raciale “Talent” des humains), à la place, une de ses compétences monte de palier chaque niveau, une seconde monte de palier aux niveaux 2,4,5,7,8 et 10, la troisième monte de palier aux niveaux impairs. Vous ne pouvez pas investir de points dans les compétences majeures en attribution fixe.</p>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <div class="anchor" id="create-gold&items"></div>
+                    <section class="races-humans codex__text__wrapper wrapper">
+                        <h3 class="codex__title">Déterminer l’or de départ et acheter de l’équipement</h3>
+                        <p class="skill__paragraph skill__text">Chaque personnage  commence avec un peu d’or au début de  son aventure,  ce qui lui permet d’acheter l’équipement de base. Il possède également des vêtements (d’une valeur de 10 Po)</p>
+                        <p class="skill__paragraph skill__text">Vous pouvez déterminer l’or de plusieurs manières, en accord avec le Maître du jeu.</p>
+                        <ul>
+                            <li>
+                                <h4 class="codex__title">Réserve fixe</h4>
+                                <p class="skill__paragraph skill__text">Le personnage commence avec 200 pièces d’or.</p>
+                            </li>
+                            <li>
+                                <h4 class="codex__title">Réserve aléatoire</h4>
+                                <p class="skill__paragraph skill__text">Le personnage commence avec 4d6*15 pièces d’or.</p>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <div class="anchor" id="create-details"></div>
+                    <section class="races-humans codex__text__wrapper wrapper">
+                        <h3 class="codex__title">Les détails</h3>
+                        <p class="skill__paragraph skill__text">Le personnage est presque terminé ! Il ne reste plus qu’à déterminer des détails mineurs comme sa dextrie ou sa couleur de cheveux.</p>
+                        <p class="skill__paragraph skill__text">L’équipement, les compétences majeures et les techniques obtenues peuvent également modifier les caractéristiques du personnage, il peut être intéressant de faire l’inventaire de tout ce qui s’applique sur le personnage.</p>
+                    </section>
+                    
+                </section>
+                
+                <div class="anchor" id="level-up"></div>         
+                <section class="races-intro codex__text__wrapper wrapper">
+                    <h2 class="codex__title">Monter de niveau</h2>
+                    <p class="skill__paragraph skill__text">A  chaque  fois  que  le  total  d’expérience  du  personnage  atteint  le  palier  indiqué  par  le tableau ci-dessous,  le  personnage  monte  de niveau et bénéficie des avantages décrits par cette section</p>
+                    
+                    <table class="character-sheet__table inventory-table">
+                        <thead class="character-sheet__table__header">
+                            <tr class="character-sheet__table__row">
+                                <th class="character-sheet__table__head">Niveau</th>
+                                <th class="character-sheet__table__head">Expérience requise</th>
+                            </tr>
+                        </thead>
+                        <tbody class="character-sheet__table__body">
+                            <tr class="character-sheet__table__row">
+                                <td class="character-sheet__table__cell">1</td>
+                                <td class="character-sheet__table__cell">0</td>
+                            </tr>
+                            <tr class="character-sheet__table__row">
+                                <td class="character-sheet__table__cell">2</td>
+                                <td class="character-sheet__table__cell">2000</td>
+                            </tr>
+                            <tr class="character-sheet__table__row">
+                                <td class="character-sheet__table__cell">3</td>
+                                <td class="character-sheet__table__cell">6000</td>
+                            </tr>
+                            <tr class="character-sheet__table__row">
+                                <td class="character-sheet__table__cell">4</td>
+                                <td class="character-sheet__table__cell">15000</td>
+                            </tr>
+                            <tr class="character-sheet__table__row">
+                                <td class="character-sheet__table__cell">5</td>
+                                <td class="character-sheet__table__cell">30000</td>
+                            </tr>
+                            <tr class="character-sheet__table__row">
+                                <td class="character-sheet__table__cell">6</td>
+                                <td class="character-sheet__table__cell">55000</td>
+                            </tr>
+                            <tr class="character-sheet__table__row">
+                                <td class="character-sheet__table__cell">7</td>
+                                <td class="character-sheet__table__cell">91000</td>
+                            </tr>
+                            <tr class="character-sheet__table__row">
+                                <td class="character-sheet__table__cell">8</td>
+                                <td class="character-sheet__table__cell">140000</td>
+                            </tr>
+                            <tr class="character-sheet__table__row">
+                                <td class="character-sheet__table__cell">9</td>
+                                <td class="character-sheet__table__cell">204000</td>
+                            </tr>
+                            <tr class="character-sheet__table__row">
+                                <td class="character-sheet__table__cell">10</td>
+                                <td class="character-sheet__table__cell">285000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="anchor" id="level-caracs"></div>
+                    <section class="races-humans codex__text__wrapper wrapper">
+                        <h3 class="codex__title">Augmentation de caractéristiques</h3>
+                        <p class="skill__paragraph skill__text">Aux niveaux pairs, le personnage peut augmenter de 1 une de  ses  caractéristiques de base.</p>
+                    </section>
+                    
+                    <div class="anchor" id="level-soulbind"></div>
+                    <section class="races-humans codex__text__wrapper wrapper">
+                        <h3 class="codex__title">Liens d’âme</h3>
+                        <p class="skill__paragraph skill__text">Tout  personnage  commence  avec  un  unique  lien  d’âme.  Au  niveau  5,  un  personnage gagne un lien d’âme suplémentaire. Il en gagne un autre au niveau 10.</p>
+                    </section>
+                    
+                    <div class="anchor" id="level-skills"></div>
+                    <section class="races-humans codex__text__wrapper wrapper">
+                        <h3 class="codex__title">Améliorer ses compétences</h3>
+                        <p class="skill__paragraph skill__text">Pour chaque niveau, le personnage dispose de 2 points de compétence à investir dans une  des  compétence  qu’il  connaît  pour  en  améliorer  le  niveau.  A  certains  paliers,  les compétences donnent des techniques actives ou passives, ou des sorts.</p>
+                        <p class="skill__paragraph skill__text">Vous  ne  pouvez  pas  investir  plus  d’un  point  par  niveau  dans  une  même  compétence. Certaines formations ou objets magiques peuvent augmenter le niveau d’une compétence, ne traitez jamais ces augmentations externes pour déterminer si vous pouvez investir des points dans une compétence.</p>
+                    </section>
+                    
+                </section>                
+                                
+            </main><!-- .main .main__content -->
+        </div><!-- .wrapper .main__wrapper -->
+        
+        <script type="text/javascript" src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/parallax.js-1.3.1/parallax.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

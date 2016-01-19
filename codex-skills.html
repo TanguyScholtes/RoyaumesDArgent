@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="fr-be" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="fr-be" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="fr-be" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="fr-be" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+        <title>Compétences - Codex - Les Royaumes d'Argent</title>
+        <meta name="description" content="Jeu de rôle sur table dans un univers médiéval fantastique créé par Vincent Dorian.">
+        <meta name="Author" content="Tanguy SCHOLTES"/>
+        
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- Add your site or application content here -->
+        
+        <!-- Header menu -->
+        <div class="wrapper header__wrapper">
+            <header class="header">
+                <p class="title site__header">
+                    <a class="site__header__link" href="index.html">
+                        <!-- <img class="site__logo" src="img/*.jpg" title="Logo Royaumes d'Argent" alt="Logo Royaumes d'Argent"> -->
+                        <span class="site__title">Les Royaumes d'Argent</span>
+                    </a>
+                </p>
+                <nav class="top__menu menu">
+                    <h2 class="title hidden">Navigation principale</h2>
+                    <ul class="top__menu__list">
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="index.html" >Accueil</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="codex.html" >Codex</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="character-sheets__list.html" >Fiches</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="board.html" >Plateau de jeu</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="my-account.html" >Mon compte</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="#" >Déconnexion</a></li>         
+                    </ul><!-- top__menu__list -->
+                </nav><!-- .menu .top__menu -->
+            </header><!-- .header -->
+        </div><!-- .wrapper .header__wrapper -->        
+        
+        <div class="wrapper main__wrapper">            
+            <!-- if parallax -->
+            <div class="illu illu-common" data-parallax="scroll" data-image-src="img/illu-warrior-1366x200.jpg">
+                <p class="title page__title illu__text">Codex : Compétences</p>
+            </div>
+            
+            <!-- Codex content -->
+        <!--
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="universe.html" >Univers</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="races.html" >Races</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="skills.html" >Compétences</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="fight.html" >Combat</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="magic.html" >Magie</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="leveling.html" >Création et Progression</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="shop.html" >Boutique</a></li>
+        -->
+            
+            <main class="main main__content">
+                <nav class="tab-menu">
+                    <h2 class="title hidden">Navigation dans le Codex</h2>
+                    <ul class="tab-menu__list codex__menu">
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex.html">Univers</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-races.html">Races</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link tab--active" href="codex-skills.html">Compétences</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-fight.html">Combat</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-magic.html">Magie</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-creation&leveling.html">Création et Progression</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-shop.html">Boutique</a></li>
+                    </ul>
+                </nav>
+                <h1 class="title content__title">Compétences</h1>
+                
+                <nav class="race__contents">
+                    <h2 class="contents__title">Sommaire</h2>
+                    <ul class="race__contents__list">
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#acrobatics">Acrobatie</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#athletics">Athlétisme</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#arcana">Arcane</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#close-range-combat">Combat au contact</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#luck">Chance</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#sneak">Discrétion</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#speechcraft">Éloquence</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#magic">Magie</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#survival">Survie</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#tactics">Tactique</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#marksman">Tir</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="anchor" id="acrobatics"></div>
+                <section class="skill skill__text__wrapper wrapper">
+                    <h2 class="codex__title">Acrobatie</h2>
+                    <p class="skill__paragraph skill__text">Insérer ici texte décrivant sommairement l'arbre de compétence.</p>
+                    <div class="skill__major">
+                        <h3 class="codex_title">Majeur</h3>
+                        <p class="skill__major__text">Le personnage a un bonus de formation de +1 Agilité. Ce bonus passe à +2 quand le personnage est palier 3 en Acrobatie et à +3 au palier 8 en Acrobatie.</p>
+                        <p class="skill__major__text">Le personnage a un bonus de formation de +1 Précision au palier 2. Ce bonus passe à +2 quand le personnage est palier 4 en Acrobatie et à +3 au palier 9 en Acrobatie.</p>
+                    </div>
+                    <div class="skill__levels">
+                        <h3 class="codex_title">Paliers</h3>
+                        <ul class="skill__levels__list">
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Esquive acrobatique :</span> Boost - Bonus de +4 en Agilité pour esquiver jusqu’au début du prochain tour.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Pas de placement :</span> Déplacement - Déplacement d’une case sans provoquer d’attaque d’opportunité.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Roulade :</span> Contre - Déplacement d’une case donnant un bonus de +4  pour esquiver.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Esquive surnaturelle :</span> Passif - Bonus de +2 Esquive contre les projectiles.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">3 - Réflexes :</span> Passif - +4 en initiative. +1 Action de contre par tour.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">5 - Saut spectaculaire :</span> Déplacement - Permet de se déplacer en ignorant les obstacles de petite ou moyenne taille. Ne provoque d’attaque d’opportunité qu’au moment du saut.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">6 - Esquive instinctive :</span> Passif - Pas de malus d’esquive pour les attaques dans le dos
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <div class="anchor" id="athletics"></div>
+                <section class="skill skill__text__wrapper wrapper">
+                    <h2 class="codex__title">Athlétisme</h2>
+                    <p class="skill__paragraph skill__text">Insérer ici texte décrivant sommairement l'arbre de compétence.</p>
+                    <div class="skill__major">
+                        <h3 class="codex_title">Majeur</h3>
+                        <p class="skill__major__text">Le personnage a un bonus de formation de +1 Constitution. Ce bonus passe à +2 quand le personnage est palier 3 en Athlétisme et à +3 au palier 8 en Athlétisme.</p>
+                        <p class="skill__major__text">Le personnage a un bonus de formation de +1 Force au palier 2. Ce bonus passe à +2 quand le personnage est palier 4 en Athlétisme et à +3 au palier 9 en Athlétisme.</p>
+                    </div>
+                    <div class="skill__levels">
+                        <h3 class="codex_title">Paliers</h3>
+                        <ul class="skill__levels__list">
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Déplacement accéléré :</span> Passif - Bonus à la vitesse de déplacement
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Natation :</span> Déplacement - Déplacement dans l’eau à moitié de la vitesse de déplacement.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Pause :</span> Boost - Passer son tour pour regagner 2 PF et 1 PM (3 ACO)
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Course :</span> Déplacement - Courir sur une distance égale à 5 fois sa vitesse de déplacement (3 ACO)
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Retenir son souffle :</span> Passif - Capacité à retenir son souffle pendant un nombre de tour égale à sa constitution. Chaque ACO dépensée réduit de 1 le nombre de tour. Chaque tour excédentaire consomme des PF.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">3 - Aisance :</span> Passif - Traité comme ayant +2 Force pour déterminer le port des armures.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">5 - Sans limite :</span> Transcendance - Retire le coût en fatigue d’une compétence pour le payer plus tard ou subir des effets négatifs.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">6 - Reprendre son souffle :</span> Boost - Regagne 1 PF.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <div class="anchor" id="arcana"></div>
+                <section class="skill skill__text__wrapper wrapper">
+                    <h2 class="codex__title">Arcane</h2>
+                    <p class="skill__paragraph skill__text">Insérer ici texte décrivant sommairement l'arbre de compétence.</p>
+                    <div class="skill__major">
+                        <h3 class="codex_title">Majeur</h3>
+                        <p class="skill__major__text">Le personnage a un bonus de formation de +1 Mental. Ce bonus passe à +2 quand le personnage est niveau 3 en Arcane et à +3 au niveau 8 en Arcane.</p>
+                        <p class="skill__major__text">Le personnage a un bonus de formation de +1 Puissance au palier 2. Ce bonus passe à +2 quand le personnage est palier 4 en Arcane et à +3 au palier 9 en Arcane.</p>
+                    </div>
+                    <div class="skill__levels">
+                        <h3 class="codex_title">Paliers</h3>
+                        <ul class="skill__levels__list">
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Projectile magique :</span> Sort - Coût : 2 ACO, 2 PM - Sort offensif dinfligeant des dégâts magiques non-élémentaire
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Armure du mage :</span> Sort - Le score d’armure du lanceur passe à 5.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Sort contrôlé :</span> Transcendance - Coût : 1 PM - Le sort gagne +4 pour toucher
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Parchemins de bataille :</span> Passif - Permet d’utiliser des parchemins en combat.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Sort puissant :</span> Transcendance - Coût : 2 PM - Le sort gagne +4 Puissance
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">3 - Sort lointain :</span> Transcendance - Coût : 2 PM - Le sort double sa portée
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <div class="anchor" id="close-range-combat"></div>
+                <section class="skill skill__text__wrapper wrapper">
+                    <h2 class="codex__title">Combat au contact</h2>
+                    <p class="skill__paragraph skill__text">La  compétence  de  combat  désigne  votre  habilité  avec  les  armes  de  contact  et  votre capacité à exécuter des techniques dans le feu de l’action.</p>
+                    <p class="skill__paragraph skill__text">Contrairement à d’autres compétences, le personnage doit choisir une spécialisation au moment où il décide d’investir dans la compétence de combat. Le style de combat choisit est celui qu’il  suivra et dont il obtiendra des  compétences à  chaque fois qu’il investira dans la compétence de combat.</p>
+                    <p class="skill__paragraph skill__text">Les styles de combat et leurs techniques associées sont détaillés dans le chapitre “<a class="codex__link" href="codex-fight.html#fighting-styles">Styles de combat</a>”</p>
+                    <div class="skill__major">
+                        <h3 class="codex_title">Majeur</h3>
+                        <p class="skill__major__text">Le personnage est formé au maniement de toutes les armes de contact communes et à ses armes raciales.</p>
+                        <p class="skill__major__text">Le personnage peut apprendre des techniques de palier inférieur ou égal au palier de la  compétence  de  combat,  autre  que  celles  de  sa  spécialisation  de  combat  (mais  ne bénéficient pas des bonus de compétences majeures) contre de l’or.</p>
+                    </div>
+                </section>
+                
+                <div class="anchor" id="luck"></div>
+                <section class="skill skill__text__wrapper wrapper">
+                    <h2 class="codex__title">Chance</h2>
+                    <p class="skill__paragraph skill__text">La compétence chance permet de jouer avec le hasard. Il n’est généralement pas simple, ni sensé de s’en remettre à la pure chance en plein combat, mais certains escrimeur et lanceurs de sorts ont intégré cette donnée dans leurs styles de combat, jouant avec panache leurs vies</p>
+                    <div class="skill__major">
+                        <h3 class="codex_title">Majeur</h3>
+                        <p class="skill__major__text">Le personnage peut relancer n'importe quel jet de dé si le résultat ne lui convient pas. Pouvoir utilisable seulement une fois par jour RP.</p>
+                    </div>
+                    <div class="skill__levels">
+                        <h3 class="codex_title">Paliers</h3>
+                        <ul class="skill__levels__list">
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Dame fortune :</span> Passif - Les coups critiques touchent systématiquement
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Tout ou rien :</span> Transcendance - La technique ou le sort transcendé a une chance sur deux de faire un critique. Une action transcendée par “Tout ou rien” échoue automatiquement si elle n’est pas critique.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <div class="anchor" id="sneak"></div>
+                <section class="skill skill__text__wrapper wrapper">
+                    <h2 class="codex__title">Discrétion</h2>
+                    <p class="skill__paragraph skill__text">Insérer ici texte décrivant sommairement l'arbre de compétence.</p>
+                    <div class="skill__major">
+                        <h3 class="codex_title">Majeur</h3>
+                        <p class="skill__major__text">Le personnage gagne un bonus de formation +1 aux jets de discrétion. Ce bonus passe à +2 quand le personnage est niveau 4 en discrétion et à +3 au niveau 9 en discrétion.</p>
+                        <p class="skill__major__text">Le personnage peut regagner instantanément un camouflage perdu. Pouvoir utilisable une fois par jour RP.</p>
+                    </div>
+                    <div class="skill__levels">
+                        <h3 class="codex_title">Paliers</h3>
+                        <ul class="skill__levels__list">
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Diversion discrète :</span> Autre - Produit du bruit ou du mouvement à distance pour détourner l’attention.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Bruits étouffés :</span> Passif - Réduit de 50% les malus de discrétion imposés par l’équipement.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Roulade silencieuse :</span> Déplacement - Déplacement coûteux en PF mais à vitesse normale sans malus aux tests de discrétion.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Sournoiserie :</span> Passif - Les frappes et sorts lors que le personnage est non-vu ont un bonus de Xd6 dégâts de précision, X étant égal au niveau de discrétion du personnage.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">3 - Passage dans l'ombre :</span> Passif - Le personnage est considéré comme invisible si immobile dans une zone de pénombre.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">5 - Préparation :</span> Passif - Tant que le personnage est non-vu, il gagne +2 sur ses jets de Vitesse.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">6 - Pas de l'ombre :</span> Déplacement - Conserve les bonus de la compétence “Passage dans l’ombre” en se déplaçant.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">8 - Camouflage rapide :</span> Autre - Permet de regagner immédiatement un camouflage perdu.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">10 - Sang froid :</span> Passif - N’est plus détectable par la chaleur ou par les sorts détectant les êtres vivants.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <div class="anchor" id="speechcraft"></div>
+                <section class="skill skill__text__wrapper wrapper">
+                    <h2 class="codex__title">Éloquence</h2>
+                    <p class="skill__paragraph skill__text">Insérer ici texte décrivant sommairement l'arbre de compétence.</p>
+                    <div class="skill__major">
+                        <h3 class="codex_title">Majeur</h3>
+                        <p class="skill__major__text">Chaque fois que le personnage utilise une compétence d’éloquence avec succès, il gagne un bonus de moral de +1 à une caractéristique de son choix jusqu’au début de son prochain tour.</p>
+                    </div>
+                    <div class="skill__levels">
+                        <h3 class="codex_title">Paliers</h3>
+                        <ul class="skill__levels__list">
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Provocation :</span> Boost - Provoque un ennemi pour lui donner jusqu’au début de votre prochain tour un malus de moral de au toucher mais un bonus de moral de +1 Force contre le personnage qui a utilisé “Provocation”.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Intimidation :</span> Boost - Coût : 2 ACO - Jet de Force contre Jet de Mental, inflige la peur pendant un tour en cas de réussite.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Encouragement :</span> Boost - Encourage un allié pour lui donner jusqu’au début de votre prochain tour un bonus de moral au toucher.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Diriger l'attention :</span> Boost - Traite un personnage comme s’il avait utilisé provocation.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">3 - Fanfaronner :</span> Passif - Le personnage est considéré comme ayant utilisé “Provocation” après avoir réussi un coup critique
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">5 - Prouesse :</span> Boost - “Intimidation” contre tous les ennemis à portée et "Encouragement" sur tous les alliés à portée après avoir tué un ennemi.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">6 - Ovation :</span> Boost - Bonus de moral pour un allié venant de réaliser un coup critique ou de tuer un ennemi.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">8 - Démoraliser :</span> Boost - Transforme un bonus de moral en malus.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">10 - Voleur de gloire :</span> Passif - Peut transférer l’attribution la mort d’un ennemi pour utiliser les techniques de la compétence Éloquence.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <div class="anchor" id="magic"></div>
+                <section class="skill skill__text__wrapper wrapper">
+                    <h2 class="codex__title">Magie</h2>
+                    <p class="skill__paragraph skill__text">La compétence de magie désigne votre habilité pour lancer des sorts, particulièrement en situation de combat.</p>
+                    <p class="skill__paragraph skill__text">Contrairement à d’autres compétences, le personnage doit choisir une spécialisation au moment où il décide d’investir dans la compétence de magie. L’école de magie choisit est celle  qu’il  suivra  et  dont  il  obtiendra  les  sorts  à  chaque  fois  qu’il  investira  dans  la compétence de magie.</p>
+                    <p class="skill__paragraph skill__text">Les écoles de magie et leurs sorts associés sont détaillées dans le chapitre “<a class="codex__link" href="codex-magic.html#magic-schools">Magie</a>”</p>
+                    <div class="skill__major">
+                        <h3 class="codex_title">Majeur</h3>
+                        <p class="skill__major__text">Le  personnage  est  formé  au  maniement  des  bâtons  magiques.</p>
+                        <p class="skill__major__text">Le personnage peut  apprendre  des techniques de palier inférieur ou égal au palier de la compétence de magie, autre que celles de  sa  spécialisation  de compétences majeures.) contre de l’or.</p>
+                    </div>
+                </section>
+                
+                <div class="anchor" id="survival"></div>
+                <section class="skill skill__text__wrapper wrapper">
+                    <h2 class="codex__title">Survie</h2>
+                    <p class="skill__paragraph skill__text">Insérer ici texte décrivant sommairement l'arbre de compétence.</p>
+                    <div class="skill__major">
+                        <h3 class="codex_title">Majeur</h3>
+                        <p class="skill__major__text">Au palier 3 de survie, Le personnage peut obtenir un compagnon animal après un rituel d’une  heure  auprès  de  l’animal  concerné.  Celui-ci  est  traité  comme  un  objet  lié  au personnage. L’évolution du compagnon animal continue avec les paliers de la compétence Survie.</p>
+                    </div>
+                    <div class="skill__levels">
+                        <h3 class="codex_title">Paliers</h3>
+                        <ul class="skill__levels__list">
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Équitation de guerre :</span> Passif - Permet  de  contrôler  sans  problème  sa  monture  en combat.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Déplacement facilité :</span> Boost - Permet  d’ignorer  certaines  conditions  gênantes  du terrain.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Proie :</span> Boost - Désigne  une  proie  et  gagne  un  bonus  de  +1  pour  toucher  à  son encontre. Ne peut avoir qu’une seule proie à la fois.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Empathie animale :</span> Autre - Permet  d’influencer  l’attitude  d’un  animal,  même  en combat.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Environnement de prédilection :</span> Passif - Désigne un environnement de prédilection au moment d’obtention de la compétence et gagne un bonus de +1 à la vitesse de déplacement et un bonus de +2 à l’initiative quand le personnage se trouve dans son environnement de prédilection.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">3 - Résilience :</span> Passif - Une fois par jour, quand le personnage tombe à 0 Pv ou moins, il peut dépenser tout ses points d’Endurance et de Mana pour regagner autant de points de vie que sa constitution.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">5 - Guide :</span> Boost - Mêmes effets que "Déplacement facilité", mais appliqué aux alliés du personnage.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <div class="anchor" id="tactics"></div>
+                <section class="skill skill__text__wrapper wrapper">
+                    <h2 class="codex__title">Tactique</h2>
+                    <p class="skill__paragraph skill__text">La tactique permet d’établir des stratégies de combat pour être plus efficace. Un fin tacticien est capable de préparer un groupe bien avant un combat et de lui donner des ordres pertinents pendant le combat.</p>
+                    <div class="skill__major">
+                        <h3 class="codex_title">Majeur</h3>
+                        <p class="skill__major__text">Insérer ici le texte décrivant le bonus occtroyé par la compétence quand elle est pris ene compétence majeure.</p>
+                    </div>
+                    <div class="skill__levels">
+                        <h3 class="codex_title">Paliers</h3>
+                        <ul class="skill__levels__list">
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Tactique :</span> Passif - Permet de former un groupe à la tactique et à l’exploit des tactiques sous ses ordres. Toutes le personnes formées reçoivent un bonus de tactique de +1 au toucher.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Coordination des défenses :</span> Boost - Les membres du groupes peuvent utiliser le bonus de parade d’un allié adjacent. Si deux alliés adjacents ont le même bonus de parade, ils reçoivent à la place un bonus de tactique à la parade de +2.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">1 - Barrage de flèches :</span> Boost - Si deux projectiles touchent un même ennemi, sa vitesse de déplacement est réduite de moitié pour charger ou courir.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Cri de guerre :</span> Boost - Double le bonus de tactique accordé par la technique “Tactique” pour toutes les personnes du groupe pouvant entendre le cri.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">2 - Acharnement tactique :</span> Passif - si le joueur ou un allié attaque la même cible qu'un autre allié ou le joueur lui même a attaqué auparavant, il gagne +1 DÉGÂT sur cette cible pour chacune de ses attaques.
+                            </li>
+                            <li class="skill__levels__list-item">
+                                <span class="skill__level__title">3 - Sort combiné :</span> Boost - Le personnage demande un sort, tous les lanceurs de sorts dans le groupe qui suivent peuvent décider d’ajouter leur sort au Sort combiné (En lançant eux-même le sort ou en utilisant un objet magique pour cela). Quand le tour du personnage arrive, le sort part de lui en ayant la Puissance et le Contrôle de tous les participants du sort combiné.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <div class="anchor" id="marksman"></div>
+                <section class="skill skill__text__wrapper wrapper">
+                    <h2 class="codex__title">Tir</h2>
+                    <p class="skill__paragraph skill__text">La compétence de tir désigne votre habilité avec les armes à distance et votre capacité à exécuter des techniques dans le feu de l’action.</p>
+                    <p class="skill__paragraph skill__text">Contrairement à d’autres compétences, le personnage doit choisir une spécialisation au moment où il décide d’investir dans la compétence de tir. Le style de tir choisit est celui qu’il suivra et dont il obtiendra les compétences à chaque fois qu’il investira dans la compétence de tir.</p>
+                    <p class="skill__paragraph skill__text">Les styles de tir et leurs techniques associées sont décrits dans le chapitre “Style de tir”</p>
+                    <div class="skill__major">
+                        <h3 class="codex_title">Majeur</h3>
+                        <p class="skill__major__text">Le personnage est formé au maniement de toutes les armes de tir communes et à ses armes raciales.</p>
+                        <p class="skill__major__text">Le personnage peut apprendre des techniques de palier inférieur ou égal au palier de la compétence de tir, autre que celles de sa spécialisation de tir (mais ne bénéficient pas des bonus de compétences majeures) contre de l’or.</p>
+                    </div>
+                </section>
+                
+            </main><!-- .main .main__content -->
+        </div><!-- .wrapper .main__wrapper -->
+        
+        <script type="text/javascript" src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/parallax.js-1.3.1/parallax.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

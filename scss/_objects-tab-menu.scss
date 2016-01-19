@@ -1,0 +1,36 @@
+.tab-menu{
+    //display: inline-block;
+    font-size: 0.75em;
+}
+
+.tab-menu__list{
+	margin: 0 1em 0 0;
+	padding: 0;
+    display: inline-table;
+}
+
+.tab-menu__list:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.tab-menu__link{
+    font-size: 1.15em;
+	display: inline-block;
+	padding: 0.6em;
+    
+    &:hover{
+        z-index: 99;
+    }
+}
+
+.tab-menu__list-item{
+	display: inline-block;
+    float: left;
+    padding-right: 0.5em;
+}
+
+.tab-menu__list-item:last-child{
+    padding-right: 0;
+}

@@ -1,0 +1,23 @@
+.page__title{
+    font-size: 2.5em;
+}
+
+.illu{
+    width: 100%;
+    height: 30em;
+    position: relative;
+}
+
+.illu-common{
+    height: 10em;
+    margin-bottom: 1em;
+    .illu__text{
+        top: 30%;
+    }
+}
+
+.illu__text{
+    position: absolute;
+    width: 65%;
+    right: 4%;
+}

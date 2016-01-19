@@ -1,0 +1,16 @@
+.codex__link{
+    color: $silver;
+    
+    &:hover{
+        color: $lightsilver;
+    }
+}
+
+.codex__image{
+    transition: opacity 300ms ease-out;
+    
+    &:hover{
+        opacity: 0.85;
+        transition: opacity 300ms ease-out;
+    }
+}

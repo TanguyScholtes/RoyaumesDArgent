@@ -1,0 +1,21 @@
+.codex__text__wrapper{
+    margin-bottom: 2em;
+}
+
+.codex__image{
+    width: 30%;
+    margin: 1em auto;
+}
+
+.races-preview{
+    width: 20%;
+    margin: 1em auto;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.codex__text__wrapper:after{
+    content: "";
+    display: block;
+    clear: both;
+}

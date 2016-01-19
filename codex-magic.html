@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="fr-be" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="fr-be" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="fr-be" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="fr-be" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+        <title>Magie - Codex - Les Royaumes d'Argent</title>
+        <meta name="description" content="Jeu de rôle sur table dans un univers médiéval fantastique créé par Vincent Dorian.">
+        <meta name="Author" content="Tanguy SCHOLTES"/>
+        
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- Add your site or application content here -->
+        
+        <!-- Header menu -->
+        <div class="wrapper header__wrapper">
+            <header class="header">
+                <p class="title site__header">
+                    <a class="site__header__link" href="index.html">
+                        <!-- <img class="site__logo" src="img/*.jpg" title="Logo Royaumes d'Argent" alt="Logo Royaumes d'Argent"> -->
+                        <span class="site__title">Les Royaumes d'Argent</span>
+                    </a>
+                </p>
+                <nav class="top__menu menu">
+                    <h2 class="title hidden">Navigation principale</h2>
+                    <ul class="top__menu__list">
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="index.html" >Accueil</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="codex.html" >Codex</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="character-sheets__list.html" >Fiches</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="board.html" >Plateau de jeu</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="my-account.html" >Mon compte</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="#" >Déconnexion</a></li>         
+                    </ul><!-- top__menu__list -->
+                </nav><!-- .menu .top__menu -->
+            </header><!-- .header -->
+        </div><!-- .wrapper .header__wrapper -->        
+        
+        <div class="wrapper main__wrapper">            
+            <!-- if parallax -->
+            <div class="illu illu-common" data-parallax="scroll" data-image-src="img/illu-warrior-1366x200.jpg">
+                <p class="title page__title illu__text">Codex : Magie</p>
+            </div>
+            
+            <!-- Codex content -->
+        <!--
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="universe.html" >Univers</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="races.html" >Races</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="skills.html" >Compétences</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="fight.html" >Combat</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="magic.html" >Magie</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="leveling.html" >Création et Progression</a></li>
+        <li class="top__menu__list__item"><a class="top__menu__list__link" href="shop.html" >Boutique</a></li>
+        -->
+            
+            <main class="main main__content">
+                <nav class="tab-menu">
+                    <h2 class="title hidden">Navigation dans le Codex</h2>
+                    <ul class="tab-menu__list codex__menu">
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex.html">Univers</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-races.html">Races</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-skills.html">Compétences</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-fight.html">Combat</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link tab--active" href="codex-magic.html">Magie</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-creation&leveling.html">Création et Progression</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-shop.html">Boutique</a></li>
+                    </ul>
+                </nav>
+                <h1 class="title content__title">Magie</h1>
+                
+                <nav class="race__contents">
+                    <h2 class="contents__title">Sommaire</h2>
+                    <ul class="race__contents__list">
+                        <li class="race__contents__list-item">
+                            <a class="race__contents__link" href="#fighting-styles">Styles de combat</a>
+                            <ul>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#common">Sorts communs</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#abjuration">Abjuration</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#biomancie">Biomancie</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#divination">Divination</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#evocation">Evocation</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#invocation">Invocation</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#illusion">Illusion</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#metamorphose">Metamorphose</a></li>
+                                <li class="race__contents__list-item"><a class="race__contents__link" href="#necromancie">Nécromancie</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <div class="anchor" id="fighting-styles"></div>
+                <section class="skill skill__text__wrapper wrapper">
+                    <h2 class="codex__title">Styles de combat</h2>
+                    
+                    <div class="anchor" id="common"></div>
+                    <section class="skill skill__text__wrapper wrapper">
+                        <h3 class="codex__title">Sorts communs</h3>
+                        <p class="skill__paragraph skill__text">Ces sorts sont accessibles gratuitement à tous ceux investissant en Magie.</p>
+                        <div class="skill__levels">
+                            <h4 class="codex_title">Paliers</h4>
+                            <ul class="skill__levels__list">
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">1 - Lecture de la magie :</span> Sort - Permet de déchiffrer les écritures magiques.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">2 - Détection de la magie :</span> Sort - Permet  de  détecter  les  auras  magiques.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">3 - Rune du mage :</span> Sort - Marque l’objet comme la propriété du lanceur de sort. Sert de focalisateur à certains sorts.
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <div class="anchor" id="abjuration"></div>
+                    <section class="skill skill__text__wrapper wrapper">
+                        <h3 class="codex__title">Abjuration</h3>
+                        <p class="skill__paragraph skill__text">Insérer ici texte décrivant l'école de magie.</p>
+                        <div class="skill__major">
+                            <h4 class="codex_title">Majeur</h4>
+                            <p class="skill__major__text"><span class="skill__level__title">Antimage :</span> Passif - Toute  technique  avec  le  registre  Abjuration  (et  n'étant  pas  un Projectile)  fait  immédiatement  perdre  1  point  de  mana  à  la  cible  ou  les  cibles  de  la technique, avant même de pouvoir dévier, parer ou esquiver le sort, mais après toute action contre. Si le sort réussit, le lanceur draine le mana qu'il a fait perdre et l'ajoute à sa réserve.</p>
+                        </div>
+                        <div class="skill__levels">
+                            <h4 class="codex_title">Paliers</h4>
+                            <ul class="skill__levels__list">
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">1 - Brûlure de mana :</span> Sort - Diminue la réserve de mana de la cible en lui infligeant des dégâts modérés.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">1 - Arme abjuratrice :</span> Sort - L'arme visée fait perdre du mana à l'impacte.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">1 - Protection :</span> Sort - Confère de la résistance à la magie à la cible.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">2 - Purge :</span> Sort - Retire tous les effets magiques d'une cible consentante
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">2 - Contre-sort :</span> Sort & Contre - Empêche un sort d’arriver au terme de son incantation.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">3 - Drain de mana :</span> Sort - Draine le mana d'un personnage.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">3 - Dissipation :</span> Sort - Supprime un effet magique ciblé
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">4 - Ancre dimensionnelle :</span> Sort - Empêche la cible de se téléporter.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">5 - Zone d'antimagie :</span> Sort - Réprime toute magie autour du lanceur.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">7 - Vide arcanique :</span> Sort -  Inflige  des  dégâts  magiques  égaux  à  la  différence  entre  le mana et le mana maximum de la cible.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">8 - Bouclier Boomerang :</span> Sort - Renvoi le premier sort subit par le lanceur.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">10 - Vol de sort :</span> Sort & Contre - Prends possession d'un sort.
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <div class="anchor" id="biomancie"></div>
+                    <section class="skill skill__text__wrapper wrapper">
+                        <h3 class="codex__title">Biomancie</h3>
+                        <p class="skill__paragraph skill__text">Insérer ici texte décrivant l'école de magie.</p>
+                        <div class="skill__major">
+                            <h4 class="codex_title">Majeur</h4>
+                            <p class="skill__major__text"><span class="skill__level__title">Antimage :</span> Passif - Toute  technique  avec  le  registre  Abjuration  (et  n'étant  pas  un Projectile)  fait  immédiatement  perdre  1  point  de  mana  à  la  cible  ou  les  cibles  de  la technique, avant même de pouvoir dévier, parer ou esquiver le sort, mais après toute action contre. Si le sort réussit, le lanceur draine le mana qu'il a fait perdre et l'ajoute à sa réserve.</p>
+                        </div>
+                        <div class="skill__levels">
+                            <h4 class="codex_title">Paliers</h4>
+                            <ul class="skill__levels__list">
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">1 - Brûlure de mana :</span> Sort - Diminue la réserve de mana de la cible en lui infligeant des dégâts modérés.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">1 - Arme abjuratrice :</span> Sort - L'arme visée fait perdre du mana à l'impacte.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">1 - Protection :</span> Sort - Confère de la résistance à la magie à la cible.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">2 - Purge :</span> Sort - Retire tous les effets magiques d'une cible consentante
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">2 - Contre-sort :</span> Sort & Contre - Empêche un sort d’arriver au terme de son incantation.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">3 - Drain de mana :</span> Sort - Draine le mana d'un personnage.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">3 - Dissipation :</span> Sort - Supprime un effet magique ciblé
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">4 - Ancre dimensionnelle :</span> Sort - Empêche la cible de se téléporter.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">5 - Zone d'antimagie :</span> Sort - Réprime toute magie autour du lanceur.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">7 - Vide arcanique :</span> Sort -  Inflige  des  dégâts  magiques  égaux  à  la  différence  entre  le mana et le mana maximum de la cible.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">8 - Bouclier Boomerang :</span> Sort - Renvoi le premier sort subit par le lanceur.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">10 - Vol de sort :</span> Sort & Contre - Prends possession d'un sort.
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <div class="anchor" id="divination"></div>
+                    <section class="skill skill__text__wrapper wrapper">
+                        <h3 class="codex__title">Divination</h3>
+                        <p class="skill__paragraph skill__text">Insérer ici texte décrivant l'école de magie.</p>
+                        <div class="skill__major">
+                            <h4 class="codex_title">Majeur</h4>
+                            <p class="skill__major__text"><span class="skill__level__title">Antimage :</span> Passif - Toute  technique  avec  le  registre  Abjuration  (et  n'étant  pas  un Projectile)  fait  immédiatement  perdre  1  point  de  mana  à  la  cible  ou  les  cibles  de  la technique, avant même de pouvoir dévier, parer ou esquiver le sort, mais après toute action contre. Si le sort réussit, le lanceur draine le mana qu'il a fait perdre et l'ajoute à sa réserve.</p>
+                        </div>
+                        <div class="skill__levels">
+                            <h4 class="codex_title">Paliers</h4>
+                            <ul class="skill__levels__list">
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">1 - Brûlure de mana :</span> Sort - Diminue la réserve de mana de la cible en lui infligeant des dégâts modérés.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">1 - Arme abjuratrice :</span> Sort - L'arme visée fait perdre du mana à l'impacte.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">1 - Protection :</span> Sort - Confère de la résistance à la magie à la cible.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">2 - Purge :</span> Sort - Retire tous les effets magiques d'une cible consentante
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">2 - Contre-sort :</span> Sort & Contre - Empêche un sort d’arriver au terme de son incantation.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">3 - Drain de mana :</span> Sort - Draine le mana d'un personnage.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">3 - Dissipation :</span> Sort - Supprime un effet magique ciblé
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">4 - Ancre dimensionnelle :</span> Sort - Empêche la cible de se téléporter.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">5 - Zone d'antimagie :</span> Sort - Réprime toute magie autour du lanceur.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">7 - Vide arcanique :</span> Sort -  Inflige  des  dégâts  magiques  égaux  à  la  différence  entre  le mana et le mana maximum de la cible.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">8 - Bouclier Boomerang :</span> Sort - Renvoi le premier sort subit par le lanceur.
+                                </li>
+                                <li class="skill__levels__list-item">
+                                    <span class="skill__level__title">10 - Vol de sort :</span> Sort & Contre - Prends possession d'un sort.
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                </section>                
+                
+            </main><!-- .main .main__content -->
+        </div><!-- .wrapper .main__wrapper -->
+        
+        <script type="text/javascript" src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/parallax.js-1.3.1/parallax.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

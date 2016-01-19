@@ -1,0 +1,12 @@
+.race__contents{
+    border-radius: 15px;
+    border: 2px solid $darksilver;
+}
+
+.race__contents__link{
+    color: $darksilver;
+    
+    &:hover{
+        color: $silver;
+    }
+}

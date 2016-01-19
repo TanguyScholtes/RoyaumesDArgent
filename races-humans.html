@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="fr-be" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="fr-be" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="fr-be" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="fr-be" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+        <title>Les Humains - Races - Les Royaumes d'Argent</title>
+        <meta name="description" content="Jeu de rôle sur table dans un univers médiéval fantastique créé par Vincent Dorian.">
+        <meta name="Author" content="Tanguy SCHOLTES"/>
+        
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- Add your site or application content here -->
+        
+        <!-- Header menu -->
+        <div class="wrapper header__wrapper">
+            <header class="header">
+                <p class="title site__header">
+                    <a class="site__header__link" href="index.html">
+                        <!-- <img class="site__logo" src="img/*.jpg" title="Logo Royaumes d'Argent" alt="Logo Royaumes d'Argent"> -->
+                        <span class="site__title">Les Royaumes d'Argent</span>
+                    </a>
+                </p>
+                <nav class="top__menu menu">
+                    <h2 class="title hidden">Navigation principale</h2>
+                    <ul class="top__menu__list">
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="index.html" >Accueil</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="codex.html" >Codex</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="character-sheets__list.html" >Fiches</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="board.html" >Plateau de jeu</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="my-account.html" >Mon compte</a></li>
+                        <li class="top__menu__list__item"><a class="top__menu__list__link" href="#" >Déconnexion</a></li>         
+                    </ul><!-- top__menu__list -->
+                </nav><!-- .menu .top__menu -->
+            </header><!-- .header -->
+        </div><!-- .wrapper .header__wrapper -->        
+        
+        <div class="wrapper main__wrapper">            
+            <!-- if parallax -->
+            <div class="illu illu-common" data-parallax="scroll" data-image-src="img/illu-warrior-1366x200.jpg">
+                <p class="title page__title illu__text">Codex : Races</p>
+            </div>
+            
+            <!-- Codex content -->
+            
+            <main class="main main__content">
+                <nav class="tab-menu">
+                    <h2 class="title hidden">Navigation dans le Codex</h2>
+                    <ul class="tab-menu__list codex__menu">
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex.html">Univers</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link tab--active" href="codex-races.html">Races</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-skills.html">Compétences</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-fight.html">Combat</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-magic.html">Magie</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-creation&leveling.html">Création et Progression</a></li>
+                        <li class="tab-menu__list-item"><a class="tab-menu__link" href="codex-shop.html">Boutique</a></li>
+                    </ul>
+                </nav>
+                <h1 class="title content__title">Les Humains</h1>
+                
+                <nav class="race__contents">
+                    <h2 class="contents__title">Sommaire</h2>
+                    <ul class="race__contents__list">
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#introduction">Introduction</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#description">Description</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#society">Société</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#relations">Relations</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#religion">Religion</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#abilities">Caractéristiques</a></li>
+                        <li class="race__contents__list-item"><a class="race__contents__link" href="#racial-traits">Particularités raciales</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="anchor" id="introduction"></div>
+                <section class="race race__text__wrapper wrapper">
+                    <h2 class="codex__title">Introduction</h2>
+                    <p class="race__paragraph race__text">Insérer ici texte décrivant sommairement la race.</p>
+                    <p class="race__paragraph race__text">Les kobolds sont des faibles et des lâches qui bouillonnent d’une rancune sourde à l’égard du reste du monde, tout particulièrement envers les races qui semblent plus fortes, plus intelligentes ou supérieures à eux de quelque façon que ce soit. Ils revendiquent fièrement leur parenté avec les dragons, mais, derrière toutes leurs fanfaronnades, vivent la comparaison avec leurs glorieux cousins avec un profond sentiment d’impuissance. Bien qu’ils soient travailleurs, intelligents et doués d’un talent naturel pour les appareils mécaniques et l’exploitation minière, ils passent leur vie à nourrir leurs rancunes et leur haine plutôt que de tirer profit de leurs propres dons.</p>
+                    <p class="race__paragraph race__text">En tactique, les kobolds se spécialisent dans les pièges et les embuscades, mais ils apprécient toute méthode leur permettant de blesser les autres sans se mettre en danger. Ils cherchent plus souvent à capturer qu’à tuer, libérant leur frustration sur des victimes sans défense qu’ils traînent jusqu’à leurs repaires oppressants.</p>
+ </p>
+                </section>
+            
+                <div class="anchor" id="description"></div>
+                <section class="race race__text__wrapper wrapper">
+                    <h2 class="codex__title">Description</h2>
+                    <p class="race__paragraph race__text">Insérer ici texte décrivant l'apparence physique de la race.</p>
+                    <p class="race__paragraph race__text">Les kobolds sont de petits humanoïdes bipèdes et reptiliens. La plupart mesurent environ 90 centimètres de haut et pèsent dans les 17 kilos. Ils ont de puissantes mâchoires pour des créatures de cette taille et des griffes aux mains et aux pieds.</p>
+                    <p class="race__paragraph race__text">Les kobolds ont souvent un visage curieusement dépourvu de toute expression, comme s’ils préféraient simplement montrer leurs émotions en remuant la queue.</p>
+                    <p class="race__paragraph race__text">La couleur de leur peau épaisse varie de l’un à l’autre, et la plupart ont des écailles de la même couleur que l’une des espèces de dragons chromatiques, les écailles rouges étant les plus courantes. Néanmoins, quelques kobolds ont des couleurs plus exotiques comme l’orange ou le jaune, ce qui, dans certaines tribus, est une marque du statut supérieur ou inférieur.</p>
+                </section>
+            
+                <div class="anchor" id="society"></div>
+                <section class="race race__text__wrapper wrapper">
+                    <h2 class="codex__title">Société</h2>
+                    <p class="race__paragraph race__text">Insérer ici texte décrivant la vie en société de la race.</p>
+                    <p class="race__paragraph race__text">Les kobolds s’épanouissent dans les lieux exigus, loin de la lumière du soleil. La plupart vivent dans de vastes terriers profondément enfouis, mais il en est quelques-uns qui préfèrent installer leur demeure dans les feuillages et les broussailles enchevêtrés.</p>
+                    <p class="race__paragraph race__text">Réservant leur méchanceté aux autres races, la plupart des kobolds s’entendent bien entre eux. Lorsque des disputes et des querelles éclatent, les anciens qui dirigent les communautés règlent généralement très vite ces conflits.</p>
+                    <p class="race__paragraph race__text">Les kobolds adorent avoir des esclaves et se régalent de les tourmenter et de les humilier. Ils sont aussi pleutres et pragmatiques, finissant souvent par s’incliner devant les êtres plus puissants qu’eux. Si ces créatures sont une autre race d’humanoïdes, les kobolds intriguent souvent pour échapper à cette emprise dès que possible. Mais si le grand chef est une puissante créature draconique ou monstrueuse, ils ne voient aucune honte à se soumettre et débordent souvent d’adoration pour leur nouveau chef. C’est particulièrement vrai s’ils servent un véritable dragon, qu’ils ont tendance à franchement vénérer.</p>
+                </section>
+            
+                <div class="anchor" id="relations"></div>
+                <section class="race race__text__wrapper wrapper">
+                    <h2 class="codex__title">Relations</h2>
+                    <p class="race__paragraph race__text">Insérer ici texte décrivant les relations de la race avec les autres.</p>
+                    <p class="race__paragraph race__text">Les kobolds bouillonnent souvent de haine et de jalousie, mais leur prudence innée leur permet de ne suivre leurs instincts que lorsqu’ils ont le dessus. S’ils ne sont pas en mesure de se laisser aller sans danger à leur besoin de faire physiquement mal et d’avilir les membres des autres races, ils s’en tiennent aux insultes prudentes et aux « blagues pratiques ».</p>
+                    <p class="race__paragraph race__text">Ils considèrent les nains et les elfes comme des rivaux mortels. Ils craignent la puissance brute des demi-orques et détestent les humains pour le statut dominant dont jouit leur race. Ils voient les demi-elfes comme la meilleure combinaison des qualités de leurs races parentes, ce que les kobolds trouvent profondément injuste. Ils pensent que les halfelins, de petite taille, font de merveilleux esclaves et de très bonnes cibles pour leur rage et leurs farces navrantes. Lorsque les gnomes ont fait leur apparition dans les royaumes mortels, les kobolds les ont tout de suite considérés comme les victimes parfaites. Ceci a entraîné de nombreuses vagues de vengeance et de représailles qui ont traversé les siècles et ont durablement installé une inimitié notoire entre les deux groupes.</p>
+                </section>
+            
+                <div class="anchor" id="religion"></div>
+                <section class="race race__text__wrapper wrapper">
+                    <h2 class="codex__title">Religion</h2>
+                    <p class="race__paragraph race__text">Insérer ici texte décrivant les religions et croyances de la race.</p>
+                    <p class="race__paragraph race__text">Les kobolds se soumettent volontiers à une force supérieure, mais s’arrêtent rarement de comploter pour prendre l’avantage sur leur oppresseur. La plupart sont d’alignement Loyal Mauvais, mais certains, qui s’intéressent plus aux procédures qu’à leur propre intérêt, deviennent Loyaux Neutres.</p>
+                    <p class="race__paragraph race__text">Les kobolds prient souvent Asmodéus ou Lamashtu, dans l’espoir qu’ils apportent la ruine à leurs ennemis ou qu’ils leur donnent le pouvoir dont ils rêvent. Certains vénèrent plutôt Calistria, afin de recevoir sa bénédiction lorsqu’ils tendent des pièges ou contreattaquent. En plus de ces divinités, il arrive parfois que les kobolds, extrêmement opportunistes, vénèrent également des monstres voisins afin de les apaiser ou de gagner leurs faveurs.</p>
+                </section>
+            
+                <div class="anchor" id="abilities"></div>
+                <section class="race race__text__wrapper wrapper">
+                    <h2 class="codex__title">Caractéristiques</h2>
+                    <p class="race__paragraph race__text">Insérer ici texte décrivant les bonus et malus de caractéristiques de la race.</p>
+                    <p class="race__paragraph race__text">Les Humaines bénéficient d'un bonus de 2 points à 2 caractéristiques de leur choix.</p>
+                </section>
+            
+                <div class="anchor" id="racial-traits"></div>
+                <section class="race race__text__wrapper wrapper">
+                    <h2 class="codex__title">Particularités raciales</h2>
+                    <p class="race__paragraph race__text">Insérer ici texte décrivant les bonus et malus spécifiques à la race.</p>
+                    <dl class="definition-list">
+                        <dt class="definition-term">Vitalité</dt>
+                        <dd class="definition-data">Les Humains ont un bonus de 5 points de vie et de 1 point d'endurance.</dd>
+                        <dt class="definition-term">Talent</dt>
+                        <dd class="definition-data">Les Humains gagnent un point de compétence supplémentaire à chaque montée de niveau.</dd>
+                    </dl>
+                </section>
+                
+                
+            </main><!-- .main .main__content -->
+        </div><!-- .wrapper .main__wrapper -->
+        
+        <script type="text/javascript" src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/parallax.js-1.3.1/parallax.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

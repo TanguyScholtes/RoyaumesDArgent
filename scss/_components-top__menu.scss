@@ -1,0 +1,63 @@
+.header__wrapper{
+    background-color: $lightsilver;
+    color: $black;
+    border-bottom: 2px solid $logoColor;
+}
+
+.header{
+    vertical-align: middle;
+}
+
+.site__header__link{
+    color: $black;
+    text-decoration: none;
+}
+
+.top__menu__list a{
+    text-decoration: none;
+    color: $black;
+    transition: color 300ms ease-out;
+    transition: text-shadow 300ms ease-out;
+    
+    &:hover{
+        color: $white;
+        text-shadow: 1px 1px 0 $lightShadowBlack;
+        transition: color 300ms ease-out;
+        transition: text-shadow 300ms ease-out;
+    }
+}
+
+.top__menu__list__item{
+    background-color: $lightsilver;
+    transition: background-color 500ms ease-out;
+    
+    &:hover{
+        background-color: $logoColor;
+        transition: background-color 500ms ease-out;
+    }
+}
+
+.top__menu__underlist{
+    list-style-type: none;
+}
+
+.top__menu__underlist__item{
+    background-color: $logoColor;
+    transition: background-color 500ms ease-out;
+    
+    &:hover{
+        background-color: darken($logoColor, 10%);
+        transition: background-color 500ms ease-out;
+    }
+}
+
+.top__menu__underlist a{
+    text-decoration: none;
+    color: $white;
+    transition: color 300ms ease-out;
+    
+    &:hover{
+        color: $white;
+        transition: color 300ms ease-out;
+    }
+}

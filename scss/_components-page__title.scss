@@ -1,0 +1,8 @@
+.page__title{
+    color: $pureWhite;
+    @include text-border($black);
+}
+
+.illu{
+    text-align: right;
+}

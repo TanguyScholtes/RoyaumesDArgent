@@ -1,0 +1,69 @@
+//links
+.character-sheet__link{
+    color: $darksilver;
+    
+    &:hover{
+        color: $silver;
+    }
+}
+
+//lists
+
+.character-sheet__informations__list{
+    list-style-type: none;
+}
+
+.character-sheet__informations__title{
+    font-weight: bold;
+}
+
+
+//tables
+
+.character-sheet__table__row > .character-sheet__table__cell{
+    background-color: $lightsilver;
+}
+
+.character-sheet__table__row:nth-child(2n) > .character-sheet__table__cell{
+    background-color: darken($lightsilver, 10%);
+}
+
+.character-sheet__table, .character-sheet__table__head, .character-sheet__table__cell, .character-sheet__table__head--side{
+    border: 1px solid $black;
+}
+
+.character-sheet__table__header, .character-sheet__table__head{
+    background-color: $black;
+    color: $white;
+}
+
+.character-sheet__table__head--side{
+    background-color: $darksilver;
+    color: $white;
+}
+
+.character-sheet__table__link{
+    color: $darksilver;
+    
+    &:hover{
+        color: $silver;
+    }
+}
+
+.caracs-table{
+    .character-sheet__table__cell:last-child{
+        background-color: $silver;
+    }
+}
+
+.skills-table{
+    .character-sheet__table__cell:last-child{
+        text-align: left;
+    }
+}
+
+.inventory-table, .techs-cac-table, .chinese-portrait-table{
+    .character-sheet__table__cell:last-child{
+        text-align: left;
+    }
+}

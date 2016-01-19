@@ -1,0 +1,119 @@
+/*-----------SETTINGS------------*/
+//Default values & breakpoints
+
+html{
+    font-size: 16px;
+}
+
+
+/*------------TOOLS------------*/
+//Mixins, variables & functions
+
+@import "tools-colors";
+@import "tools-fonts";
+@import "tools-mixins";
+
+
+/*------------GENERIC-----------*/
+//Basic definitions for generic elements
+
+@import "normalize";
+@import "boilerplate";
+
+
+/*------------BASE------------*/
+//Low-specificity rules for your particular project
+
+body {
+	position: relative;
+}
+
+.wrapper{
+    margin: 0 auto;
+    margin-bottom: 1em;
+	width: 100%;
+}
+
+.main{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.main:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.header__wrapper{
+    margin: 0 auto;    
+}
+
+.title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.site__title{
+    font-size: 1.65em;
+    color: $pureWhite;
+    @include text-border($black);
+    
+    a{
+        color: $pureWhite;
+    }
+}
+
+.content__title{
+    font-size: 2em;
+}
+
+.hidden{
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.center{
+    width: 100%;
+    text-align: center;
+}
+
+.anchor{
+    display: block;
+    position: relative;
+    top: -4em;
+    visibility: hidden;    
+}
+
+.definition-term{
+    font-weight: bold;
+}
+
+/*------------OBJECTS------------*/
+//Structure, location and behaviour of repeating sections in your pages
+
+@import "objects-top__menu";
+@import "objects-page__title";
+@import "objects-tab-menu";
+@import "objects-character-sheet";
+@import "objects-codex";
+@import "objects-races";
+
+
+
+/*------------COMPONENTS------------*/
+//Aspects of those repeating sections
+
+@import "components-top__menu";
+@import "components-page__title";
+@import "components-tab-menu";
+@import "components-character-sheet";
+@import "components-codex";
+@import "components-races";
+
+
+
+/*------------TRUMPS-------------*/
+//Rules you want to win in every situation
+
